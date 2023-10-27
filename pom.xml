@@ -3,7 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>json</groupId>
     <artifactId>json</artifactId>
-    <version>1.0-JSON</version>
+    <version>1.2.5 -JSON</version>
+    <properties>
+        <sdk>C:\JavaFX\javafx-sdk-21.0.1\lib</sdk>
+    </properties>
     <build>
         <plugins>
             <plugin>
@@ -18,18 +21,77 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-
+                <version>3.3.0</version> <!-- Замените на актуальную версию плагина -->
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>sus.JSONtoCSVConverterApp</mainClass>
+                            <mainClass>JSONtoCSVConverterApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>3.2.4</version> <!-- Укажите актуальную версию Maven Shade Plugin -->
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>JSONtoCSVConverterApp</mainClass>
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.3.0</version>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>JSONtoCSVConverterApp</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.openjfx</groupId>
+                <artifactId>javafx-maven-plugin</artifactId>
+                <version>0.0.8</version> <!-- Укажите актуальную версию плагина -->
+                <configuration>
+                    <mainClass>JSONtoCSVConverterApp</mainClass> <!-- Замените на имя вашего класса приложения -->
+                    <options>
+                        <option>--module-path</option>
+                        <option>C:\JavaFX\javafx-sdk-21.0.1\lib</option>
+                        <option>--add-modules</option>
+                        <option>javafx.controls,javafx.fxml</option>
+                    </options>
+                </configuration>
+            </plugin>
+
+
         </plugins>
     </build>
-
     <dependencies>
         <!-- Зависимость для библиотеки Gson -->
         <dependency>
@@ -37,7 +99,6 @@
             <artifactId>gson</artifactId>
             <version>2.10.1</version> <!-- Укажите актуальную версию Gson -->
         </dependency>
-
         <!-- Зависимость для библиотеки OpenCSV -->
         <dependency>
             <groupId>com.opencsv</groupId>
@@ -48,7 +109,19 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>19.0.2.1</version> <!-- Замените на актуальную версию -->
+            <version>21.0.1</version> <!-- Замените на актуальную версию -->
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>21.0.1</version> <!-- Версия JavaFX -->
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx.base</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>C:\JavaFX\javafx-sdk-21.0.1\lib\javafx.base.jar</systemPath>
         </dependency>
     </dependencies>
 </project>

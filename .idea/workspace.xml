@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08434598-b123-4ef1-bbcc-c7017cb49123" name="Changes" comment="232">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JSONtoCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JSONtoCSVConverterApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Новый текстовый документ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/1json_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Новый текстовый документ.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,37 +49,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaFX/javafx-sdk-21.0.1&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.12413793&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.JSONtoCSV">
-    <configuration name="JSONtoCSV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JSONtoCSV" />
-      <module name="json" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JSONtoCSVConverterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\json\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.JSONtoCSVConverterApp">
+    <configuration name="JSONtoCSVConverterApp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JSONtoCSVConverterApp" />
       <module name="json" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\JavaFX\javafx-sdk-21.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml " />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="json-1.2.5 -JSON-jar-with-dependencies.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/json-1.2.5 -JSON-jar-with-dependencies.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.JSONtoCSVConverterApp" />
+      <item itemvalue="JAR Application.json-1.2.5 -JSON-jar-with-dependencies.jar" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JSONtoCSV" />
-        <item itemvalue="Application.JSONtoCSVConverterApp" />
+        <item itemvalue="JAR Application.json-1.2.5 -JSON-jar-with-dependencies.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +102,11 @@
       <option name="presentableId" value="Default" />
       <updated>1698128347504</updated>
       <workItem from="1698128349984" duration="12238000" />
-      <workItem from="1698146254843" duration="5198000" />
+      <workItem from="1698146254843" duration="16509000" />
+      <workItem from="1698396536495" duration="4610000" />
+      <workItem from="1698404266277" duration="310000" />
+      <workItem from="1698405043623" duration="5509000" />
+      <workItem from="1698412605627" duration="503000" />
     </task>
     <servers />
   </component>
@@ -112,6 +125,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="232" />
     <option name="LAST_COMMIT_MESSAGE" value="232" />
   </component>
