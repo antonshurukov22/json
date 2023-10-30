@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>json</groupId>
   <artifactId>json</artifactId>
-  <version>1.2.3 -JSON</version>
+  <version>1.2.6 -JSON</version>
   <build>
     <plugins>
       <plugin>
@@ -77,16 +77,4 @@
       </plugin>
     </plugins>
   </build>
-  <dependencies>
-    <dependency>
-      <groupId>org.openjfx</groupId>
-      <artifactId>javafx.base</artifactId>
-      <version>1.0</version>
-      <scope>system</scope>
-      <systemPath>C:\JavaFX\javafx-sdk-21.0.1\lib\javafx.base.jar</systemPath>
-    </dependency>
-  </dependencies>
-  <properties>
-    <sdk>C:\JavaFX\javafx-sdk-21.0.1\lib</sdk>
-  </properties>
 </project>

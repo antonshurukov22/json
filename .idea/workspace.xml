@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08434598-b123-4ef1-bbcc-c7017cb49123" name="Changes" comment="232">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/1json_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Новый текстовый документ.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <recent name="C:\json\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JSONtoCSVConverterApp">
+  <component name="RunManager" selected="JAR Application.json-1.2.6 -JSON-jar-with-dependencies.jar">
     <configuration name="JSONtoCSVConverterApp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JSONtoCSVConverterApp" />
       <module name="json" />
@@ -78,18 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="json-1.2.5 -JSON-jar-with-dependencies.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/json-1.2.5 -JSON-jar-with-dependencies.jar" />
+    <configuration name="json-1.2.6 -JSON-jar-with-dependencies.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/json-1.2.6 -JSON-jar-with-dependencies.jar" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\JavaFX\javafx-sdk-21.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml " />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.JSONtoCSVConverterApp" />
-      <item itemvalue="JAR Application.json-1.2.5 -JSON-jar-with-dependencies.jar" />
+      <item itemvalue="JAR Application.json-1.2.6 -JSON-jar-with-dependencies.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.json-1.2.5 -JSON-jar-with-dependencies.jar" />
+        <item itemvalue="JAR Application.json-1.2.6 -JSON-jar-with-dependencies.jar" />
       </list>
     </recent_temporary>
   </component>
