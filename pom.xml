@@ -77,11 +77,8 @@
                 <version>0.0.8</version> <!-- Укажите актуальную версию плагина -->
                 <configuration>
                     <mainClass>JSONtoCSVConverterApp</mainClass> <!-- Замените на имя вашего класса приложения -->
-
                 </configuration>
             </plugin>
-
-
         </plugins>
     </build>
     <dependencies>
